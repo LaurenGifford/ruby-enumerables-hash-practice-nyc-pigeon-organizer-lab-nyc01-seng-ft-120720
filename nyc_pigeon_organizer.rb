@@ -9,11 +9,11 @@ def nyc_pigeon_organizer(data)
       names_array.each do |name|
         binding.pry
         if !final_array[name] do
-          
+        
+        end
         final_array[name] = value
       end
     end
-    final_array
   end
   binding.pry
 end
