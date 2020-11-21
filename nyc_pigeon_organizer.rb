@@ -13,7 +13,6 @@ def nyc_pigeon_organizer(data)
         binding.pry
       final_array[name][key].push(inner_key.to_s)
       end
-      value.to_s
     end
   end
   binding.pry
